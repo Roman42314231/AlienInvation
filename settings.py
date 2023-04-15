@@ -22,3 +22,7 @@ class Settings:
         self.fleet_drop_speed = 10
         # fleet_direction of 1 represents right; -1 represents left.
         self.fleet_direction = 1
+
+        # game speed up
+        self.speedup_scale = 1.1
+        self.initialize_dynamic_settings()
